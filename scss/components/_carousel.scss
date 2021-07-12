@@ -1,0 +1,46 @@
+@import '../base/listas';
+@import '../base/variables';
+
+.mi-carousel{
+    padding: 5%;  
+    height: 150vh;
+}
+
+.mi-carousel .imagenes {
+    height: 100%;
+}
+
+.seccion-foto-carrousel{
+    margin-top: 2%;
+    padding: 2%;
+    text-align: $alineacion;
+     
+}
+
+.carrousel1{
+    box-shadow: 28px 21px 66px -12px rgba(224,144,184,0.75);
+    -webkit-box-shadow: 28px 21px 66px -12px rgba(224,144,184,0.75);
+    -moz-box-shadow: 28px 21px 66px -12px rgba(224,144,184,0.75);
+    transition: all 2s;
+   
+}
+
+.carrousel1:hover{
+    transform: translate(20px, 20px);
+}
+
+.art-on-me{
+    color: nth($colores, 1);
+    font-size: nth($tamaño-letra,4);
+    font-family: $fuente-marca;
+    text-align: $alineacion;
+
+}
+
+.call-to-action{
+    color: nth($colores, 2);
+    font-size: nth($tamaño-letra,3);
+    font-family: $fuente-textos-gral;
+    text-align: $alineacion;
+    background-color:nth($colores, 1);
+}

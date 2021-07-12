@@ -1,0 +1,22 @@
+@import '../base/listas';
+@import '../base/variables';
+
+ .seccion-campana{
+    color: rgb(224, 144, 184);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 12%;
+    font-style: italic;
+ }
+
+ .video{
+     width: 20px;
+     height: 20px;
+    
+}
+
+ .fondo-rosa{
+    background-image: url('../imagenes/fondo.PNG');
+}

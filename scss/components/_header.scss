@@ -1,0 +1,97 @@
+@import '../base/listas';
+@import '../base/variables';
+
+
+
+.titulo{
+    color: nth($colores,2); 
+    font-size: nth($tamaño-letra,1);
+    font-family: $fuente-marca;
+    text-align: $alineacion;
+    background-color:rgb(224, 144, 184) ;
+}
+
+.subtitulo{
+    padding: 20px;
+    color: nth($colores,1); 
+    font-size: nth($tamaño-letra,2);
+    font-family: $fuente-marca;
+    text-align: $alineacion;
+}
+
+.links{
+    display: flex;
+    justify-content: flex;
+}
+
+.logo-menu-container{
+    display: flex;
+    justify-self: flex-start;
+    border-radius: 50px; 
+    width: 50px; 
+    height: 50px; 
+
+}
+
+.iniciar-sesion { 
+    margin-right: 15px;
+    color: nth($colores,1); 
+    letter-spacing: nth($espacio-letras, 1);
+    font-family: $fuente-textos-gral;
+    text-decoration: none;
+}
+
+.iniciar-sesion:hover { 
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+         
+}
+
+.iniciar-sesion:hover::after{
+    content: '📧';
+   
+}
+
+.carrito{
+    color: nth($colores,1);
+    letter-spacing: nth($espacio-letras, 1);
+    font-family: $fuente-textos-gral;
+    text-decoration: none;
+   
+}
+
+.carrito:hover { 
+    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+      
+}
+
+.carrito:hover:after{
+    content:'🛒';
+}
+
+.menu-container-2{
+    display: flex;
+    justify-content: $alineacion;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: $alineacion; 
+    color: nth($colores,2); 
+    letter-spacing: nth($espacio-letras, 1);
+    font-family: $fuente-textos-gral;
+    text-decoration: none;
+    background-color:nth($colores,1); 
+    transition: all 1s;
+    
+} 
+ 
+ .menu:hover {
+    background-color:nth($colores,2); 
+    color: nth($colores,1); 
+    transform: scale(2);
+    
+}

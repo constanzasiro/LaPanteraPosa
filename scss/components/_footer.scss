@@ -1,0 +1,25 @@
+@import '../base/listas';
+@import '../base/variables';
+
+.facebook{
+    @extend %estilo-redes;
+}
+
+.instagram{
+    @extend %estilo-redes;
+}
+
+.twitter{
+    @extend %estilo-redes;
+
+}
+
+.whatsapp{
+    @extend %estilo-redes;
+}
+
+.linea-link{
+    text-decoration: none;
+
+}
+

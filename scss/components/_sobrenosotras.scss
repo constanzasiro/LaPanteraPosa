@@ -1,0 +1,36 @@
+@import '../base/listas';
+@import '../base/variables';
+
+
+.seccion-sobre-nosotras {
+   @extend %estilo-h2;
+}
+
+.mery-coqui {
+    display: flex;
+    justify-content: $alineacion;
+    align-items: $alineacion;
+}    
+
+ .sobre-nosotras-1{
+    color: nth($colores,1);
+    font-family: $fuente-textos-gral;
+    letter-spacing: nth($espacio-letras,2);
+    text-align: $alineacion;  
+ }
+
+
+ .sobre-nosotras-2{
+    color: nth($colores,1);
+    font-size: nth($tamaño-letra,4);
+    font-family: $fuente-marca;
+    text-align: $alineacion;
+    transition: all 1s;
+   
+    
+ }
+
+ .sobre-nosotras-2:hover{
+    transform: translate(20px, 20px)
+ }
+

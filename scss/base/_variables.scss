@@ -1,0 +1,39 @@
+//*Variables Generales*//
+
+$fuente-textos-gral: Verdana, Geneva, Tahoma, sans-serif;
+$fuente-marca: 'Schoolbell', cursive;
+$alineacion: center;
+
+%estilo-h2{
+    color: rgb(224, 144, 184);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 12%;
+    font-style: italic;
+   
+}
+
+%estilo-h4{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+%estilo-lista{
+    color: rgb(224, 144, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 6px;
+}
+
+
+
+//*Variables Footer*//
+
+%estilo-redes {
+    width: 2%;
+    border-radius: 20px;
+    margin: 5px;
+}

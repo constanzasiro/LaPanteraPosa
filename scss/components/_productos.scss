@@ -1,0 +1,52 @@
+@import '../base/listas';
+@import '../base/variables';
+
+.seccion-productos{
+    @extend %estilo-h2;
+}
+
+.todas-las-remeras{
+    color: nth($colores,1);
+    font-family: $fuente-textos-gral;
+    letter-spacing: nth($espacio-letras,2);
+    text-align: $alineacion;
+
+}
+
+.boton-comprar-2 {
+    font-weight: bolder;
+    border-radius: 5px; 
+    padding: 5px 5px;
+    color: nth($colores,2);
+    letter-spacing: nth($espacio-letras,1);
+    font-family: $fuente-textos-gral;
+    text-align: $alineacion;
+    background-color: nth($colores,1);
+    border: none;
+    text-decoration: none;
+} 
+
+.boton-comprar-2:hover{
+    text-decoration: underline;
+    background-color: nth($colores,2);
+    color: nth($colores,1);
+}
+
+.prueba-flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: $alineacion;
+    transition: all 2s;
+    
+}
+
+.prueba-flexbox:hover{
+    transform: scale(1.1);
+    
+}
+
+.detalle-productos{
+    color: nth($colores,1);
+    font-family: $fuente-textos-gral;
+    letter-spacing:nth($espacio-letras,2);
+}

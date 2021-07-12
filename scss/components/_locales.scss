@@ -1,0 +1,41 @@
+@import '../base/listas';
+@import '../base/variables';
+
+
+.seccion-locales{
+    @extend %estilo-h2;
+}
+
+
+.flexbox-locales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: $alineacion;
+    width: 100%;
+    
+}
+
+.flexbox-locales div{
+    display: flex;
+    flex-direction: column;
+    justify-content: $alineacion;
+    align-items: $alineacion;
+    
+}
+
+
+.recoleta{
+    @extend %estilo-h4;
+}
+
+.vilo{
+    @extend %estilo-h4;
+}
+
+.carilo{
+    @extend %estilo-h4;
+}
+
+.tamaño-mapa{
+    width: 100%;
+}

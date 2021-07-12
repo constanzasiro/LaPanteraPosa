@@ -1,0 +1,16 @@
+@import '../base/listas';
+@import '../base/variables';
+
+
+.seccion-contactanos{
+    @extend %estilo-h2;
+}
+
+.formulario-contacto{
+    @extend %estilo-lista;
+}
+
+
+.linea{
+    color: nth($colores, 1);
+}
