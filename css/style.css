@@ -524,11 +524,23 @@
   body {
     background-color: #210e8a;
   }
+
+  .facebook, .instagram, .twitter, .whatsapp {
+    width: 10%;
+    border-radius: 20px;
+    margin: 5px;
+  }
 }
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: #210e8a;
+  }
+
+  .facebook, .instagram, .twitter, .whatsapp {
+    width: 10%;
+    border-radius: 20px;
+    margin: 5px;
   }
 }
 
