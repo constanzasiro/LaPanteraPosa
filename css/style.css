@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-campana, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -114,7 +114,7 @@
   transform: scale(1.2);
 }
 
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-campana, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -184,7 +184,7 @@
   background-color: #e090b8;
 }
 
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-campana, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -238,7 +238,7 @@
   transform: translate(20px, 20px);
 }
 
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-campana, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -310,7 +310,7 @@
   letter-spacing: 3px;
 }
 
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-locales, .seccion-sobre-nosotras, .seccion-productos {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-campana, .seccion-locales, .seccion-sobre-nosotras, .seccion-productos {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -357,7 +357,7 @@
   width: 100%;
 }
 
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-sobre-nosotras, .seccion-productos, .seccion-locales {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-campana, .seccion-sobre-nosotras, .seccion-productos, .seccion-locales {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -384,16 +384,6 @@
   width: 2%;
   border-radius: 20px;
   margin: 5px;
-}
-
-.seccion-campana {
-  color: #e090b8;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  letter-spacing: 3px;
-  text-align: center;
-  margin-top: 12%;
-  font-style: italic;
 }
 
 .video {
@@ -405,7 +395,7 @@
   background-image: url("../imagenes/fondo.PNG");
 }
 
-.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-sobre-nosotras, .seccion-productos, .seccion-locales {
+.seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-campana {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -434,7 +424,7 @@
   margin: 5px;
 }
 
-.seccion-contactanos, .seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-preguntas-frecuentes {
+.seccion-contactanos, .seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-campana, .seccion-preguntas-frecuentes {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -467,7 +457,7 @@
   color: #e090b8;
 }
 
-.seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-preguntas-frecuentes, .seccion-contactanos {
+.seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-campana, .seccion-preguntas-frecuentes, .seccion-contactanos {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -500,7 +490,7 @@
   text-decoration: none;
 }
 
-.seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-preguntas-frecuentes, .seccion-contactanos {
+.seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-campana, .seccion-preguntas-frecuentes, .seccion-contactanos {
   color: #e090b8;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
