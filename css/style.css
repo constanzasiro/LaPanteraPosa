@@ -90,13 +90,11 @@
   content: "🛒";
 }
 
-.menu-container-2 {
-  display: flex;
-  justify-content: center;
+.background-menu {
+  background-color: #e090b8;
 }
 
 .menu {
-  display: flex;
   width: 100%;
   justify-content: space-around;
   text-align: center;
@@ -519,12 +517,37 @@
   margin: 5px;
 }
 
+.seccion-sobre-nosotras, .seccion-productos, .seccion-locales, .seccion-campana, .seccion-preguntas-frecuentes, .seccion-contactanos {
+  color: #e090b8;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 12%;
+  font-style: italic;
+}
+
+.recoleta, .vilo, .carilo, .como-comprar, .como-devolver, .medios-de-pago, .descuentos {
+  color: #e090b8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+.lista-como-comprar, .lista-devolucion, .lista-medios-de-pago, .lista-descuentos-financiacion, .formulario-contacto {
+  color: #e090b8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 6px;
+}
+
+.facebook, .instagram, .twitter, .whatsapp {
+  width: 2%;
+  border-radius: 20px;
+  margin: 5px;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: #210e8a;
-  }
-
   .facebook, .instagram, .twitter, .whatsapp {
     width: 10%;
     border-radius: 20px;
@@ -533,10 +556,6 @@
 }
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #210e8a;
-  }
-
   .facebook, .instagram, .twitter, .whatsapp {
     width: 10%;
     border-radius: 20px;

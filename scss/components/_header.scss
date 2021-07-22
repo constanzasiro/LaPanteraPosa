@@ -70,13 +70,11 @@
     content:'🛒';
 }
 
-.menu-container-2{
-    display: flex;
-    justify-content: $alineacion;
-}
+.background-menu{
+    background-color: nth($colores,1); 
+ }
 
 .menu{
-    display: flex;
     width: 100%;
     justify-content: space-around;
     text-align: $alineacion; 
@@ -86,6 +84,7 @@
     text-decoration: none;
     background-color:nth($colores,1); 
     transition: all .5s ease-in-out;
+    
     
 } 
  
