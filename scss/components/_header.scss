@@ -85,13 +85,13 @@
     font-family: $fuente-textos-gral;
     text-decoration: none;
     background-color:nth($colores,1); 
-    transition: all 1s;
+    transition: all .5s ease-in-out;
     
 } 
  
  .menu:hover {
     background-color:nth($colores,2); 
     color: nth($colores,1); 
-    transform: scale(2);
+    transform: scale(1.2);
     
 }

@@ -105,13 +105,13 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   background-color: #e090b8;
-  transition: all 1s;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu:hover {
   background-color: #210e8a;
   color: #e090b8;
-  transform: scale(2);
+  transform: scale(1.2);
 }
 
 .seccion-contactanos, .seccion-preguntas-frecuentes, .seccion-locales, .seccion-productos, .seccion-sobre-nosotras {
